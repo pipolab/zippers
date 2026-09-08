@@ -19,12 +19,13 @@ import { getAuth, onAuthStateChanged, signInAnonymously } from "firebase/auth";
  *    forma anónima).
  */
 const firebaseConfig = {
-  apiKey: "REEMPLAZA_CON_TU_API_KEY",
-  authDomain: "REEMPLAZA.firebaseapp.com",
-  projectId: "REEMPLAZA",
-  storageBucket: "REEMPLAZA.appspot.com",
-  messagingSenderId: "REEMPLAZA",
-  appId: "REEMPLAZA",
+  apiKey: "AIzaSyAwM2VlezCep_-4KgYF1lbwIx_osVtKiJ0",
+  authDomain: "zippers-fdfb9.firebaseapp.com",
+  projectId: "zippers-fdfb9",
+  storageBucket: "zippers-fdfb9.firebasestorage.app",
+  messagingSenderId: "1035861123266",
+  appId: "1:1035861123266:web:81c0391a6dc8eab01a1b5b"
+};
 };
 
 export const app = initializeApp(firebaseConfig);
